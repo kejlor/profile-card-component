@@ -72,7 +72,6 @@ img {
   text-align: center;
   max-width: 20em;
   margin: auto;
-  border: var(--clr-primary-200) 1px solid;
   border-radius: 00.75em 00.75em 00.75em 00.75em;
   background-color: white;
 }
