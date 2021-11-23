@@ -18,9 +18,13 @@ body {
   font-family: var(--ff-primary);
   margin: 0;
   padding: 0;
+  margin-top: 10em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .attribution {
+  margin-top: 10em;
   font-size: 11px;
   text-align: center;
 }
@@ -43,6 +47,15 @@ img {
   height: 5em;
   border-radius: 50%;
   align-self: center;
+  margin-top: 5em;
+  border: 3px solid white;
+}
+
+.header {
+  background-image: url(../images/bg-pattern-card.svg);
+  filter: brightness(115%);
+  border-radius: 00.75em 00.75em 0 0em;
+  height: 7em;
 }
 
 .card {
@@ -50,11 +63,17 @@ img {
   position: relative;
   flex-direction: column;
   min-width: 8em;
-  min-height: 16em;
+  min-height: 18em;
   text-align: center;
+  max-width: 20em;
+  margin: auto;
+  border: var(--clr-primary-200) 1px solid;
+  border-radius: 00.75em 00.75em 00.75em 00.75em;
+  background-color: white;
 }
 
 .name-age {
+  margin-top: 2.5em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -77,6 +96,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-bottom: 1.5em;
 }
 
 .bottom h1,
@@ -93,4 +113,9 @@ img {
   flex-direction: column;
   flex-grow: 1;
   flex-basis: 0;
+}
+
+.entry p {
+  margin-top: 0.5em;
+  font-size: 10px;
 }
