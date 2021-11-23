@@ -1,0 +1,28 @@
+:root {
+  --clr-primary-200: hsl(185, 75%, 39%);
+  --clr-primary-400: hsl(229, 23%, 23%);
+  --clr-primary-800: hsl(227, 10%, 46%);
+
+  --clr-neutral-400: hsl(0, 0%, 59%);
+
+  --ff-primary: "Kumbh Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1 {
+  font-size: 18px;
+}
