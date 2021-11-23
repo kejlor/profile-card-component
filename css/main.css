@@ -21,6 +21,11 @@ body {
   margin-top: 10em;
   margin-left: 2em;
   margin-right: 2em;
+  background-color: var(--clr-primary-200);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
 }
 
 .attribution {
